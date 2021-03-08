@@ -4,8 +4,11 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div>
+    <>
+      <Head>
+        <title>Home</title>
+      </Head>
       <h3>Hello, Next</h3>
-    </div>
+    </>
   );
 }
